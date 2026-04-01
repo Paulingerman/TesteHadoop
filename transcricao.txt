@@ -1,0 +1,144 @@
+[Música]
+Olá seja muito bem-vindo depois de
+estudar um pouco sobre o Spark talvez
+você esteja se perguntando Quais são as
+diferenças entre o Spark e o rup afinal
+quando se trata de rup e Spark duas
+perguntas são frequentes já estou usando
+rup devo usar o Spark estou pensando em
+usar rop devo desistir de usar o Spark
+vamos investigar as diferença entre hop
+e Spark respond essas perguntas o rup
+Como já vimos é a plataforma original do
+Big Data e tem sido usado e testado no
+mercado permite trabalhar com pet Bat de
+dados habilitando A análise de
+quantidades massivas de dados o hado
+possui um ecossistema bem definido que
+permite estender suas funções como no
+caso da utilização do pig hive e hbase
+esse diagrama mostra um pouquinho como é
+o universo de uma arquitetura rup Mas
+vamos simplificar basicamente temos o
+grande volume de dados o Big Data
+precisamos coletar esses dados
+extraí-los de alguma forma enriquecê-los
+através de análise e entregar um produto
+seja uma ap um processo de análise ou
+mesmo um relatório a verdade é que criar
+um rup para processar grandes volumes de
+dados em Bet Big datata Mas e se o
+volume de dados não for tão grande assim
+e se o volume de dados esver em
+streaming ou seja fluxo contínuo de
+dados o rup map reduce possui limitações
+e não atende algum dos requisitos de
+cada cada vez mais importantes
+programação interativa machine learning
+algoritmos e stream de dados pois o rup
+map reduce possui alta latência e o
+Spark Como já vimos Spark é um Engine de
+computação em cluster é veloz em memória
+os dados são processados até 100 vezes
+mais rápido que no map reduce é de
+propósito geral ou seja SQL stream
+Machine learn compatibilidade é
+compatível com rup mezos e Arne pode ser
+usado Stand Alone com dfs S3 Cassandro
+ebase mais fácil e simples é a primeira
+plataforma de Big Data a integrar Bet
+stream computação Interativa em um único
+Framework aqui um diagrama que explica
+um pouquinho sobre arquitetura Spark
+recomendo você dar um pause no vídeo e
+estudar um pouco mais em detalhes esse
+bmar mostra claramente a diferença do
+Spark em relação a outras plataformas de
+Big Data perceba que Em ambos os casos a
+execução de query foi ível quando se
+usou o Spark acessando dados em memória
+em nenhuma outra forma consegui um
+resultado tão rápido quanto o Spark
+memória Vamos então colocar lado a lado
+rup Spark e investigar algumas das suas
+diferenças rup armazenamento distribuído
+com hdfs e computação distribuída com
+map reduce o Spark é somente computação
+distribuída rup utiliza o Framework map
+reduce enquanto que o Spark utiliza
+computação genérica
+rup normalmente processa dados em disco
+hdfs o Spark processa dados em disco e
+em memória hup não é ideal para trabalho
+interativo já o Spark é excelente para
+trabalhos interativos machine learning O
+hup normalmente trabalha com processo
+Bet enquanto que o sparker pode ser até
+10 vezes mais rápido para dados em disco
+e até 100 vezes mais rápido para dados
+em memória o rup suporta basicamente
+Java apesar de iniciativas em R Python e
+outras linguagens já o Spark suporta
+Java Python Scala entre outros o rup não
+possui um Shell Unificado ao passo que o
+Spark possui um Shell para exploração Ad
+rock esse gráfico ajuda a explicar
+claramente a diferença entre ambas as
+tecnologias no caso do rup map redus
+perceba que é utilizado frequentemente a
+consulta ao hdfs enquanto que no Spark
+todo o processamento pode ser feito em
+memória O que torna a análise muito mais
+rápida então o Spark vai substituir o
+rup a resposta é não Spark executa sobre
+o hdfs e o yarn pode acessar o hdfs usa
+o yarn para gerenciamento do cluster e
+Spark é realmente bom quando os dados
+podem ser processados em memória mas e
+quando não podem por exemplo gigantescos
+volumes de dados vamos mais uma vez
+colocar rup Spark lado a lado agora com
+uma outra comparação processamento Bet
+no caso do rup utiliza-se o Map DCE Java
+Pig hive no Spark utiliza-se o Spark rdd
+com Java Python Scala query skl o rup
+utiliza o hive enquanto que o Spark
+possui o Spark scare processamento
+stream e processamento em tempo real
+para esse tipo de atividade o rup
+precisa Então utilizar o Storm ou cfic
+enquanto que o Spark possui o Spark
+stream machine learning O rop confia
+numa rout já o Spark possui Spark ml Lib
+algoritmos iterativos com o rup lento já
+com Spark muito rápido quando executar
+em memória workflow etl para esse caso o
+rup utiliza o pig ou flum já o Spark
+pode trabalhar Pig com Spark ou mix de
+Spark SQL e programação rdd volume de
+dados o rup normalmente é usado para
+volume gigante na casa dos petabytes já
+o Spark para um volume médio de giga ou
+Tab Ou seja quando os dados possuem um
+volume muito grande o Spark pode não ser
+a melhor solução e por esse motivo o
+Spark não vai substituir completamente o
+rup pelo menos não por enquanto a
+recomendação é a seguinte quando o seu
+volume de dados tiver menos de 1 TB o
+Spark é a melhor solução porém se o seu
+volume de dados for superior ao tb o rup
+Spark juntos vão oferecer A melhor
+solução para armazenamento e análise de
+dados esse diagrama nos mostra que o
+Spark pode perfeitamente acessar dados
+no hdfs ou em memória e que utiliza o
+yarn para gerenciamento do Club
+Resumindo já usa rup tente o Spark para
+processar dados no hdfs ainda não usa
+rop temos Park T de Alone Obrigado por
+assistir esse vídeo curta nossas páginas
+nas redes sociais e fique sabendo as
+novidades em data Science Big Data
+internet das coisas e muito mais
+[Música]
